@@ -93,3 +93,72 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
+/*nariz*/
+
+.nariz{
+    width: 20px;
+    height: 40px;
+    background: #f5ee35;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    border: 5px solid black;
+    z-index: 10;
+    border-bottom: 5px solid transparent;
+    border-radius:40% ;
+}
+
+/*boca*/
+
+.boca{
+    width: 200px;
+    height: 80px;
+    background:transparent;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    border-radius: 50%;
+    z-index: 10px;
+    border-bottom: 5px solid black ;
+    
+}
+
+.dientes{
+    position: relative;
+    top: 80px;
+    left: 65px;
+
+}
+
+.diente{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: solid 5px black;
+    display: inline-block;
+
+}
+
+.mejilla{
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    position: absolute;
+    top: 30px;
+    border: 3px solid #f1592a;
+    border-bottom: 3px solid transparent;
+    border-radius:50% 50% 20% 20%;
+
+}
+
+.mejilla.primera{
+    left: -15px;
+}
+
+.mejilla.segunda{
+    left: 175px;
+}
+
+/* https://www.youtube.com/watch?v=rS4a4Gya8f8 */
+/*26:10*/
