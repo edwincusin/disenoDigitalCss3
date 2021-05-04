@@ -1,0 +1,55 @@
+*{
+    padding: none;
+    margin: none;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.azul{
+    color: teal;
+    margin:auto;
+}
+h1{
+    display: inline-block;
+}
+
+.diamante{
+    display: inline-block;
+    border: solid;
+    border-color: transparent transparent rgb(0, 0, 0) transparent;
+    border-width: 0/*top*/ 50px /*derecho*/ 50px/*alto*/ 50px/*izquierdo*/ ;
+    height: 0px;
+    width: 50px;
+    position: relative;
+    margin: 20px 0 50px 0;
+    padding: 0%;
+}
+
+ .diamante::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -49px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+    border-width: 100px 75px 0 75px;
+    padding: 0%;
+} 
+
+.diamante p{
+    color: thistle;
+    position: absolute;
+    z-index: 10;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;   
+    margin: 0;
+    left:-15px;
+    top: 28px;
+}
