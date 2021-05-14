@@ -9,6 +9,22 @@ height: 400px;
 display: block;
 border: black solid 1px;
 margin: auto ;
+position: relative;
+background: rgb(0, 0, 0);
+
+}
+
+p{
+    margin-top: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background: chartreuse;
+    text-align: center;
+    z-index: 100;
+    border: white solid 1px;
+    border-right: none;
+    border-left: none;
+
 }
 
 .mascaraBodyCabeza{
@@ -96,17 +112,74 @@ margin: auto ;
     border: none;
 }
 
+/**orejas*/
+.orejas{
+    width: 230px;
+    height: 90px ;
+    background: transparent;
+    border: solid rgb(238, 211, 169) 14px;
+    position: relative;
+    position: absolute;
+    border-radius: 60px;
+    left: 46px;
+    bottom: 144px;
+    z-index: 2;
+}
 
 
+
+
+/*cuado bajo*/
+
+.contbajo{
+    width: 200px;
+    height: 130PX;
+    border:none;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    z-index: 5;    
+    border-top: none;
+    background: transparent;
+}
+
+/*boca*/
+
+.boca{
+    width: 45px;
+    height: 43px;
+    background:black ;
+    position: absolute;
+    border: white solid 7px;
+    border-radius: 20px;
+    z-index: 30;
+    left: 70px;
+    bottom: 76px;
+}
+
+/*lengua*/
+.lengua{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: rgb(255, 0, 255);    
+    z-index: 50;
+    border: none;
+    border-radius: 5px;
+    left: 45%;
+    top: 36px;
+}
 
 
 
 /*cuello*/
 
 .mascaraBodyCuello{    
-    height: 0px;       
+    height: 0px;
+    z-index: 10;  
+    display: block;  
     margin: auto;
-    z-index: 10;    
+    
 }
 
 
@@ -114,25 +187,21 @@ margin: auto ;
     width: 132px;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    border-bottom: 30px solid rgb(220, 12, 126);     
-    position: relative;
-    top: 100px;
+    border-bottom: 30px solid rgb(220, 12, 126);
 }
 
 .mascaraBodyCuello.dos{
     width: 142px;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
-    border-bottom: 30px solid rgb(30, 136, 106);     
-    position: relative;
-    top: 100px;
+    border-bottom: 30px solid rgb(30, 136, 106); 
 }
 .mascaraBodyCuello.tres{
     width: 159px;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-bottom: 30px solid rgb(139, 113, 6);     
-    position: relative;
-    top: 100px;
+    border-bottom: 30px solid rgb(139, 113, 6); 
 }
+
+
 
