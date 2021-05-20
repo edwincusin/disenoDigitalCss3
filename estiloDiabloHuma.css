@@ -10,7 +10,7 @@ display: block;
 border: black solid 1px;
 margin: auto ;
 position: relative;
-background: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(93, 221, 93), rgb(132, 0, 255), rgb(255, 102, 0), white);
+background: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(93, 221, 93), rgb(83, 48, 15), rgb(255, 102, 0), white);
 padding-top: 25px;
 
 /* Los posibles estilos de borde son:
