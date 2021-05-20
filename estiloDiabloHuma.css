@@ -10,9 +10,18 @@ display: block;
 border: black solid 1px;
 margin: auto ;
 position: relative;
-background: rgb(0, 0, 0);
+background: -webkit-linear-gradient(top, rgb(0, 0, 0), rgb(93, 221, 93), rgb(132, 0, 255), rgb(255, 102, 0), white);
 padding-top: 25px;
 
+/* Los posibles estilos de borde son:
+solid.
+dotted.
+double.
+dashed.
+groove.
+ridge.
+inset.
+outset. */
 
 }
 
@@ -42,7 +51,7 @@ p{
     border-top-right-radius: 50px;
     z-index: 10;
     background: rgb(255, 0, 119);
-    background: -webkit-linear-gradient(top, rgb(255, 0, 119), tomato);
+    background: -webkit-linear-gradient(top, rgb(255, 0, 119), tomato 95%);
 }
 
 .mascaraBodyCentro{
@@ -64,16 +73,17 @@ p{
 }
 
 .color.uno{
-    background: tomato;
+    background: -webkit-linear-gradient(top, tomato 79%,rgb(53, 103, 112));
 }
 .color.dos{
-    background: rgb(53, 103, 112);
+    background: -webkit-linear-gradient(top, rgb(53, 103, 112) 90%,rgb(236, 171, 5));
 }
 .color.tres{
-    background: rgb(236, 171, 5);
+    background: -webkit-linear-gradient(top, rgb(236, 171, 5) 79%, rgb(66, 189, 223));
 }
 .color.cuatro{
     background: rgb(62, 132, 151);
+    background: -webkit-linear-gradient(top, rgb(66, 189, 223) 79%, rgb(255, 0, 119) );
 }
 
 
@@ -121,7 +131,7 @@ p{
     width: 230px;
     height: 90px ;
     background: transparent;
-    border: solid rgb(238, 211, 169) 14px;
+    border: solid rgb(187, 44, 19) 14px;
     position: absolute;
     border-radius: 60px;
     left: 46px;
@@ -187,14 +197,14 @@ p{
     width: 132px;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    border-bottom: 30px solid rgb(220, 12, 126);
+    border-bottom: 30px solid rgb(220, 12, 126)  ;
 }
 
 .mascaraBodyCuello.dos{
     width: 142px;
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
-    border-bottom: 30px solid rgb(30, 136, 106); 
+    border-bottom: 30px solid rgb(30, 230, 43); 
 }
 .mascaraBodyCuello.tres{
     width: 159px;
